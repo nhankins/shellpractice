@@ -1,0 +1,19 @@
+
+
+Quick shell scripting help:
+
+
+
+exec bash -l or exec bash : changes current terminal shell temporarily
+
+mv og_name.sh new_name.sh: renames script
+
+read: is like input in python
+
+variable=$1 : Positional parameter aka argument is the 1 coordinating with variable in script
+
+whereami=$(pwd) : puts command to a variable
+
+bash myscript.sh = manually runs .sh in .zsh environments 
+*** though it's better to add a shebang in the beginning that looks like #!/usr/bin/env bash, then it can be ran on zsh default/environments 
+
